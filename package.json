@@ -1,0 +1,11 @@
+{
+  "name": "verify-regex",
+  "version": "1.5.3",
+  "description": "Verify regex",
+  "main": "index.js",
+  "keywords": [
+    "regex"
+  ],
+  "author": "NGAHANE STEVE WILLIAM",
+  "license": "ISC"
+}
