@@ -2,9 +2,18 @@
 verify-regix is module who use to verify specific condition in string
 
 # Usage 
-* npm i toast-display
-* import  * as toastDisplay from 'toast-display';
-* toastDisplay.show();
+* npm i verify-regex
+* import  * as verifyRegex from 'verify-regex';
+* verifyRegex.isValidEmail('johndoe@gmail'); return false
+
+# Exemples
+* verifyRegex.isValidEmail('johndoe@gmail.com'); return true
+* verifyRegex.isValidEmail('johndoe@gmail.com'); return true
+* verifyRegex.isBetween(5, 4, 8); return true
+* verifyRegex.isBetween(7, 4, 5); return false
+* verifyRegex.isInteger('55'); return true
+* verifyRegex.isInteger(55); return true
+* verifyRegex.isInteger('fm55'); return false
 
 
 # functions
